@@ -1,7 +1,6 @@
 "use strict";
 
 const http = require('http');
-console.log(process.env);
 
 let port = process.env["HTTP_PORT"] || 80;
 
